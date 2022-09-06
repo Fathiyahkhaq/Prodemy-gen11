@@ -8,7 +8,7 @@ public class TestScopeGabung {
 }
 
 class ScopeContoh {
-    private int i = 1;
+    private int i = 1; //variabel instance, ini lagi inisiasi variabel
     public void firstMethod() {
         int i = 5, j = 6;
         this.i = i+j;

@@ -7,6 +7,9 @@ public class Halonama {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan namamu: ");
         String nama = in.nextLine();
-        System.out.printf("Hello, " + nama);
+        System.out.println("Hello, " + nama);
+        System.out.print("masukkan integer: ");
+        int n = in.nextInt();
+        System.out.println(n);
     }
 }
