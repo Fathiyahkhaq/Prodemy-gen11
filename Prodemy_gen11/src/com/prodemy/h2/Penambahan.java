@@ -37,6 +37,9 @@ public class Penambahan {
 //        System.out.println(val);
         String hei = "hello";
         System.out.println(hei.substring(2));
+        float nilai = 9.0F;
+        int ganti = (int) nilai;
+        System.out.println(ganti);
 
     }
 }
